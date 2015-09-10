@@ -131,6 +131,9 @@ Public Class Player : Implements IEnumerable(Of Ship)
         End Get
     End Property
 
+    ''' <summary>
+    ''' Calculates the users score 
+    ''' </summary>
     Public ReadOnly Property Score() As Integer
         Get
             If IsDestroyed Then
@@ -198,6 +201,9 @@ Public Class Player : Implements IEnumerable(Of Ship)
         Return result
     End Function
 
+    ''' <summary>
+    ''' Controls the randomized ship deployment option
+    ''' </summary>
     Public Overridable Sub RandomizeDeployment()
         Dim placementSuccessful As Boolean
         Dim heading As Direction
