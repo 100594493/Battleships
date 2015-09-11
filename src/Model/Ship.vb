@@ -64,20 +64,12 @@ Public Class Ship
         End Get
     End Property
 
-    ''' <summary>
-    ''' The column location of the ship
-    ''' </summary>
-    ''' <returns>the column of the ship</returns>
     Public ReadOnly Property Column() As Integer
         Get
             Return _col
         End Get
     End Property
 
-    ''' <summary>
-    ''' The direction of the ship
-    ''' </summary>
-    ''' <returns>the direction of the ship</returns>
     Public ReadOnly Property Direction() As Direction
         Get
             Return _direction
@@ -110,9 +102,6 @@ Public Class Ship
         _tiles.Clear()
     End Sub
 
-    ''' <summary>
-    ''' Counts the hit taken to a ship
-    ''' </summary>
     Public Sub Hit()
         _hitsTaken = _hitsTaken + 1
     End Sub
@@ -127,9 +116,6 @@ Public Class Ship
         End Get
     End Property
 
-    ''' <summary>
-    ''' IsDestroyed returns if the ships has been Destroyed.
-    ''' </summary>
     Public ReadOnly Property IsDestroyed() As Boolean
         Get
             Return Hits = Size
