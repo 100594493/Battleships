@@ -91,6 +91,7 @@ public class AIHardPlayer : AIPlayer
 	private List<Target> _LastHit = new List<Target>();
 
 	private Target _CurrentTarget;
+	//
 	public AIHardPlayer(BattleShipsGame game) : base(game)
 	{
 	}
