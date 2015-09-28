@@ -1,0 +1,29 @@
+﻿<Properties StartupItem="BattleShips.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\Model\AIMediumPlayer.cs">
+    <Files>
+      <File FileName="src\Model\AIHardPlayer.cs" Line="349" Column="98" />
+      <File FileName="src\Model\AIMediumPlayer.cs" Line="110" Column="69" />
+      <File FileName="src\Model\AIOption.cs" Line="4" Column="34" />
+      <File FileName="src\Model\AIPlayer.cs" Line="99" Column="21" />
+      <File FileName="src\Model\AttackResult.cs" Line="4" Column="34" />
+      <File FileName="src\Model\BattleShipsGame.cs" Line="83" Column="38" />
+      <File FileName="src\Model\Player.cs" Line="99" Column="16" />
+      <File FileName="src\Model\Direction.cs" Line="4" Column="34" />
+      <File FileName="src\Model\ISeaGrid.cs" Line="16" Column="21" />
+      <File FileName="src\Model\ResultOfAttack.cs" Line="4" Column="34" />
+      <File FileName="src\Model\SeaGrid.cs" Line="28" Column="36" />
+      <File FileName="src\Model\SeaGridAdapter.cs" Line="60" Column="36" />
+      <File FileName="src\Model\Ship.cs" Line="89" Column="22" />
+      <File FileName="src\Model\ShipName.cs" Line="4" Column="34" />
+      <File FileName="src\Model\Tile.cs" Line="4" Column="34" />
+      <File FileName="src\Model\TileView.cs" Line="4" Column="34" />
+      <File FileName="c:\Users\Rhys\Desktop\test\Battleships\src\GameController.cs" Line="51" Column="12" />
+      <File FileName="src\EndingGameController.cs" Line="41" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
