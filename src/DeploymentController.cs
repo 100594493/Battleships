@@ -49,6 +49,12 @@ static class DeploymentController
 			GameController.AddNewState(GameState.ViewingGameMenu);
 		}
 
+		Point2D mouse = default(Point2D);
+		mouse = SwinGame.MousePosition();
+		if (SwinGame.MouseClicked(MouseButton.LeftButton) && (mouse.X < 250) && (mouse.Y < 80)) {
+			GameController.AddNewState(GameState.ViewingGameMenu);
+		}
+
 		if (SwinGame.KeyTyped(KeyCode.vk_UP) | SwinGame.KeyTyped(KeyCode.vk_DOWN)) {
 			_currentDirection = Direction.UpDown;
 		}
