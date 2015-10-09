@@ -58,7 +58,7 @@ public class Tile
 					_Ship.AddTile(this);
 				}
 			} else {
-				throw new InvalidOperationException("There is already a ship at [" + Row + ", " + Column + "]");
+				throw new InvalidOperationException("There is already a ship at that coordinate!");
 			}
 		}
 	}
