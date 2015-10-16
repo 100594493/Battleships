@@ -198,7 +198,7 @@ static class MenuController
 		int i = 0;
 		for (i = 0; i <= _menuStructure[menu].Length - 1; i++) {
 			int btnLeft = 0;
-			btnLeft = MENU_LEFT + BUTTON_SEP * (i + xOffset);
+			btnLeft = MENU_LEFT + BUTTON_SEP * i;
 			//SwinGame.FillRectangle(Color.White, btnLeft, btnTop, BUTTON_WIDTH, BUTTON_HEIGHT)
 			SwinGame.DrawTextLines(_menuStructure[menu][i], MENU_COLOR, Color.Black, GameResources.GameFont("Menu"), FontAlignment.AlignCenter, btnLeft + TEXT_OFFSET, btnTop + TEXT_OFFSET, BUTTON_WIDTH, BUTTON_HEIGHT);
 

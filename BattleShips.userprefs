@@ -1,17 +1,17 @@
 ﻿<Properties StartupItem="BattleShips.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\DiscoveryController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\MenuController.cs">
     <Files>
       <File FileName="src\DiscoveryController.cs" Line="70" Column="8" />
-      <File FileName="src\EndingGameController.cs" Line="22" Column="28" />
-      <File FileName="src\GameController.cs" Line="173" Column="46" />
-      <File FileName="src\GameLogic.cs" Line="22" Column="37" />
-      <File FileName="src\GameResources.cs" Line="215" Column="40" />
-      <File FileName="src\GameState.cs" Line="50" Column="43" />
-      <File FileName="src\HighScoreController.cs" Line="126" Column="47" />
-      <File FileName="src\MenuController.cs" Line="117" Column="51" />
-      <File FileName="src\UtilityFunctions.cs" Line="299" Column="25" />
-      <File FileName="src\DeploymentController.cs" Line="12" Column="7" />
+      <File FileName="src\EndingGameController.cs" Line="1" Column="1" />
+      <File FileName="src\GameController.cs" Line="301" Column="29" />
+      <File FileName="src\GameLogic.cs" Line="13" Column="43" />
+      <File FileName="src\GameResources.cs" Line="233" Column="15" />
+      <File FileName="src\GameState.cs" Line="45" Column="19" />
+      <File FileName="src\HighScoreController.cs" Line="194" Column="48" />
+      <File FileName="src\MenuController.cs" Line="195" Column="18" />
+      <File FileName="src\UtilityFunctions.cs" Line="1" Column="1" />
+      <File FileName="src\DeploymentController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
